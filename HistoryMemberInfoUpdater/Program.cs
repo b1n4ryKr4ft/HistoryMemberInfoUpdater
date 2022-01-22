@@ -4,11 +4,11 @@ using Newtonsoft.Json;
 using System.Net.Http.Headers;
 using HistoryMemberInfoUpdater.Models;
 
-ReadDataFormExcelFile();
+ReadDataFromExcelFile();
 
 
 
-static void ReadDataFormExcelFile()
+static void ReadDataFromExcelFile()
 {
     var filePath = @"C:\Users\SibongeleniM\OneDrive - Club Leisure Management\Documents\HMI_Update\2022 HMI Update La Rochelle.xlsx";
     FileInfo file = new FileInfo(filePath);
